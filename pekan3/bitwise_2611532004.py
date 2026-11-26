@@ -51,8 +51,8 @@ print("Biner hasil =", bin(hasil))
 print("Biner hasil (8 bit) =", format(hasil, "08b"))
 
 # Bitwise geser kanan
-hasil = angka1_2004 >> angka2_2004
+hasil = angka1_2004 >> jumlah_geser
 print("\nBitwise geser kanan (>>)")
 print(angka1_2004, ">>", jumlah_geser, "=", hasil)
 print("Biner hasil =", bin(hasil))
-print("Biner hasil (8 bit)")
+print("Biner hasil (8 bit) =", format(hasil, "08b"))
